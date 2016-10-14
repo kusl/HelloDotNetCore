@@ -9,6 +9,7 @@ namespace HelloDotNetCore
     {
         public static void Main(string[] args)
         {
+            Console.WriteLine("Hello, world!");
         }
     }
 }
