@@ -1,0 +1,6 @@
+image: debian:latest
+before_script:
+- bash docker_install.sh
+build:mybuild:
+  script:
+  - cd src/HelloDotNetCore && dotnet restore && dotnet run
