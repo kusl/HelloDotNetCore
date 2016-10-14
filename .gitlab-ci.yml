@@ -4,3 +4,4 @@ before_script:
 build:mybuild:
   script:
   - cd src/HelloDotNetCore && dotnet restore && dotnet run
+  - uname -r
